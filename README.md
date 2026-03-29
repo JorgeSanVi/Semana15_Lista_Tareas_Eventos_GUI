@@ -2,7 +2,7 @@
 
 ## Descripción del proyecto
 
-En esta tarea desarrollé una aplicación de escritorio en Python utilizando Tkinter. La aplicación permite agregar, completar y eliminar tareas mediante una interfaz gráfica sencilla y fácil de usar.
+En esta tarea desarrollé una aplicación de escritorio utilizando Tkinter. La aplicación permite agregar, completar y eliminar tareas mediante una interfaz gráfica sencilla y fácil de usar.
 
 El proyecto fue organizado siguiendo una arquitectura modular por capas, separando el modelo, la lógica del sistema y la interfaz gráfica, tal como se solicita en la guía. Además, se aplicó manejo de eventos con botones, teclado y ratón para mejorar la interacción del usuario con la aplicación.
 
