@@ -22,13 +22,11 @@ lista_tareas_app/
 │   └── tarea_servicio.py
 └── ui/
     └── app_tkinter.py
-
-    Explicación de los archivos
+Explicación de los archivos
 main.py: punto de inicio de la aplicación.
 modelos/tarea.py: define la clase Tarea con sus atributos y estado.
 servicios/tarea_servicio.py: contiene la lógica para agregar, completar, eliminar y listar tareas.
 ui/app_tkinter.py: construye la interfaz gráfica y maneja los eventos del usuario.
-
 Funcionalidades principales
 Agregar nuevas tareas
 Marcar tareas como completadas
@@ -37,7 +35,6 @@ Añadir tareas con el botón Añadir Tarea
 Añadir tareas con la tecla Enter
 Marcar tareas como completadas con doble clic
 Mostrar un cambio visual cuando una tarea ha sido completada
-
 Manejo de eventos aplicado
 
 En esta aplicación se utilizaron dos formas principales de manejo de eventos:
@@ -55,7 +52,6 @@ Se implementaron para responder a acciones del usuario de forma más dinámica:
 
 <Return> para agregar una tarea presionando la tecla Enter
 <Double-1> para marcar una tarea como completada con doble clic sobre la lista
-
 Feedback visual
 
 Cuando una tarea se marca como completada:
@@ -72,14 +68,16 @@ PyInstaller
 Cómo ejecutar el proyecto
 
 Primero se debe ingresar a la carpeta del proyecto:
+
 cd lista_tareas_app
 
 Luego ejecutar:
-python main.py
 
+python main.py
 Generación del ejecutable
 
 Para compilar la aplicación como ejecutable se utilizó PyInstaller con el siguiente comando:
+
 pyinstaller --noconsole --onefile --name ListaTareasApp main.py
 
 El archivo ejecutable generado se encuentra en la carpeta:
